@@ -1,6 +1,6 @@
 import axios from "axios";
+import { BASE_URL } from "../../utils/baseEndpoint";
 //create that must return a promise
-const BASE_URL = "http://localhost:5000/api/v1/notifications";
 
 //!fetch all notifications
 export const fetchNotificationsAPI = async (postData) => {
